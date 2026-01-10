@@ -3,7 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Wojciech Czerski - Game Developer Portfolio">
+    <meta name="description" content="Wojciech Czerski - Software Developer Portfolio">
+    <meta name="author" content="Wojciech Czerski">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wojciech Czerski - Software Developer">
+    <meta property="og:description" content="Software Developer Portfolio showcasing puzzle games, slot machines, and mobile game projects.">
+    <meta property="og:image" content="images/tomino-device-1.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wojciech Czerski - Software Developer">
+    <meta name="twitter:description" content="Software Developer Portfolio showcasing puzzle games, slot machines, and mobile game projects.">
+    <meta name="twitter:image" content="images/tomino-device-1.png">
+
     <title>Wojciech Czerski</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.ico">
@@ -13,15 +27,15 @@
         <!-- Header Section -->
         <header class="header">
             <h1>Wojciech Czerski</h1>
-            <nav class="social-links">
-                <a href="https://github.com/wojciechczerski" target="_blank" rel="noopener noreferrer" class="social-button">
-                    <img src="images/github-64.png" alt="GitHub">
+            <nav class="social-links" aria-label="Social media links">
+                <a href="https://github.com/wojciechczerski" target="_blank" rel="noopener noreferrer" class="social-button" aria-label="Visit my GitHub profile">
+                    <img src="images/github-64.png" alt="GitHub" width="24" height="24">
                 </a>
-                <a href="https://www.linkedin.com/in/wojciechczerski/" target="_blank" rel="noopener noreferrer" class="social-button">
-                    <img src="images/linkedin-64.png" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/wojciechczerski/" target="_blank" rel="noopener noreferrer" class="social-button" aria-label="Visit my LinkedIn profile">
+                    <img src="images/linkedin-64.png" alt="LinkedIn" width="24" height="24">
                 </a>
-                <a href="mailto:contact@wojciechczerski.com" class="social-button">
-                    <img src="images/mail-64.png" alt="E-Mail">
+                <a href="mailto:contact@wojciechczerski.com" class="social-button" aria-label="Send me an email">
+                    <img src="images/mail-64.png" alt="E-Mail" width="24" height="24">
                 </a>
             </nav>
         </header>
@@ -35,8 +49,8 @@
                     Tomino is a complete puzzle game template that comes with implemented game mechanics, custom UI, integrated sound effects, and music. The package includes unit tests that validate the correctness of the game logic. It is a perfect starting point for your own puzzle game.
                 </p>
                 <div class="project-images">
-                    <img src="images/tomino-device-1.png" alt="Tomino screenshot 1" class="project-image">
-                    <img src="images/tomino-device-2.png" alt="Tomino screenshot 2" class="project-image">
+                    <img src="images/tomino-device-1.png" alt="Tomino puzzle game template screenshot showing game interface" class="project-image" loading="lazy" width="400" height="710">
+                    <img src="images/tomino-device-2.png" alt="Tomino puzzle game template screenshot showing gameplay" class="project-image" loading="lazy" width="400" height="710">
                 </div>
                 <div class="project-buttons">
                     <a href="https://assetstore.unity.com/packages/templates/packs/tomino-puzzle-game-template-164104" target="_blank" rel="noopener noreferrer" class="project-button">View on Unity Asset Store</a>
@@ -50,11 +64,11 @@
             <article class="project-card">
                 <h2 class="project-title">Monster Spin</h2>
                 <p class="project-description">
-                    Monster Spin is a slot machine game based on the old German slot machine's design and mechanics. It was built using the Cocos2D engine, written in Objective-C and releases for the iOS platform. I was the main developer of the project.
+                    Monster Spin is a slot machine game based on the old German slot machine's design and mechanics. It was built using the Cocos2D engine, written in Objective-C and released for the iOS platform. I was the main developer of the project.
                 </p>
                 <div class="project-images">
-                    <img src="images/mosp-01.png" alt="Monster Spin screenshot 1" class="project-image">
-                    <img src="images/mosp-02.png" alt="Monster Spin screenshot 2" class="project-image">
+                    <img src="images/mosp-01.png" alt="Monster Spin slot machine game screenshot showing main interface" class="project-image" loading="lazy" width="400" height="710">
+                    <img src="images/mosp-02.png" alt="Monster Spin slot machine game screenshot showing gameplay" class="project-image" loading="lazy" width="400" height="710">
                 </div>
                 <div class="project-buttons">
                     <a href="http://www.pocketgamer.co.uk/r/iPad/Monster+Spin/review.asp?c=55741" target="_blank" rel="noopener noreferrer" class="project-button">See the review</a>
@@ -71,8 +85,8 @@
                     Puzzle 2 is a game where the player controls a block of size 2 x 1 x 1. The level is completed when the block stands vertically on the finish tile. The game was written in Java and was released for J2ME and iOS platforms. In this project, I was responsible for implementing core game mechanics.
                 </p>
                 <div class="project-images">
-                    <img src="images/puzzle-1.png" alt="Puzzle 2 screenshot 1" class="project-image">
-                    <img src="images/puzzle-2.png" alt="Puzzle 2 screenshot 2" class="project-image">
+                    <img src="images/puzzle-1.png" alt="Puzzle 2 block puzzle game screenshot showing level" class="project-image" loading="lazy" width="400" height="710">
+                    <img src="images/puzzle-2.png" alt="Puzzle 2 block puzzle game screenshot showing gameplay mechanics" class="project-image" loading="lazy" width="400" height="710">
                 </div>
                 <div class="project-buttons">
                     <a href="http://www.pocketgamer.co.uk/r/iPhone/Puzzle+2/review.asp?c=21068" target="_blank" rel="noopener noreferrer" class="project-button">See the review</a>
@@ -89,8 +103,8 @@
                     This is a casual car driving game developed for Sony. The player controls various vehicles and fights the enemies using different weapons and gadgets. The game was written in Java and was released for J2ME, BREW, Windows Mobile, Blackberry, and Android platforms. In this project, I was responsible for implementing core game mechanics.
                 </p>
                 <div class="project-images">
-                    <img src="images/bond-1.png" alt="007 License to drive screenshot 1" class="project-image">
-                    <img src="images/bond-2.png" alt="007 License to drive screenshot 2" class="project-image">
+                    <img src="images/bond-1.png" alt="007 License to drive car driving game screenshot showing vehicle combat" class="project-image" loading="lazy" width="400" height="710">
+                    <img src="images/bond-2.png" alt="007 License to drive car driving game screenshot showing gameplay" class="project-image" loading="lazy" width="400" height="710">
                 </div>
                 <div class="project-buttons">
                     <a href="http://www.pocketgamer.co.uk/r/Mobile/James+Bond%3A+007+Licence+to+Kill/review.asp?c=11424" target="_blank" rel="noopener noreferrer" class="project-button">See the review</a>
